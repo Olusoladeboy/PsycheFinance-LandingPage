@@ -1,4 +1,3 @@
-// import {useState} from 'react';
 import MockUp from '../MockUp';
 import '../../Styles/IntroPage.css';
 import * as AiIcons from 'react-icons/ai'
