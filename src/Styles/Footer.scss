@@ -1,0 +1,45 @@
+@import 'variables';
+
+.footer-container{
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        padding: 2em 5em;
+    
+    }
+    div{
+       
+        p{
+            font-size: 12px;
+        
+        }
+    }
+
+    .center{
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:700px) {
+    .footer-container{
+        .footer-content{
+            padding: 2em 2em;
+        }
+
+        div{
+       
+            p{
+                font-size: 10px;
+            
+            }
+
+            img{
+                width: 50%;
+            }
+        }
+    }
+    .center{ 
+        font-size: 10px;
+    }
+}

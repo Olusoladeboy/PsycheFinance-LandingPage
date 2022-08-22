@@ -1,0 +1,27 @@
+.footer-container .footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 5em;
+}
+.footer-container div p {
+  font-size: 12px;
+}
+.footer-container .center {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .footer-container .footer-content {
+    padding: 2em 2em;
+  }
+  .footer-container div p {
+    font-size: 10px;
+  }
+  .footer-container div img {
+    width: 50%;
+  }
+  .center {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=Footer.css.map */
