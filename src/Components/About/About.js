@@ -21,14 +21,14 @@ const About = () =>{
               />
                <AboutCards 
                img={"images/Wallet_perspective_matte.svg"}
-               header={"3% yearly interest on your Checking Account"}
-               about={"Make your money work for you without any lock ups or fees"}
+               header={"Recieve Payment in any Currency"}
+               about={"Set up a direct deposit and get paid in Naira transfer, Dollar, Euro and Crypto."}
                stroke={"02"}
               />
                <AboutCards 
                img={"images/Money_perspective_matte.svg"}
-               header={"3% yearly interest on your Checking Account"}
-               about={"Make your money work for you without any lock ups or fees"}
+               header={"Cash to Crypto in Seconds"}
+               about={"Store, buy and sell crypto directly starting from as low as $1."}
                stroke={"03"}
               />
             </div>

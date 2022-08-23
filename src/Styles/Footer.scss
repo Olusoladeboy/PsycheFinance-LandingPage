@@ -30,6 +30,11 @@
     .footer-container{
         padding: 2em 2em;
         .footer-content{
+            flex-direction: column;
+
+            .copyright{
+                margin-bottom: 1em;
+            }
            img{
             padding-right: 0.5em;
            }

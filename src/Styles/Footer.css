@@ -21,6 +21,12 @@
   .footer-container {
     padding: 2em 2em;
   }
+  .footer-container .footer-content {
+    flex-direction: column;
+  }
+  .footer-container .footer-content .copyright {
+    margin-bottom: 1em;
+  }
   .footer-container .footer-content img {
     padding-right: 0.5em;
   }
