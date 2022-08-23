@@ -1,10 +1,3 @@
-// .stroke {
-//     font-size: 100px;
-//     -webkit-text-stroke-width: 1.5px;
-//     -webkit-text-stroke-color: #0a0000;
-//     -webkit-text-fill-color: #e8eef0;
-//     font-family: Impact, Charcoal, sans-serif;
-// }
 
 @import 'variables';
 
@@ -13,8 +6,6 @@
     width: 18em;
     box-sizing: border-box;
     text-align: center;
-    // display: flex;
-    // justify-content: space-between;
 
     .card-content{
         display: flex;

@@ -4,20 +4,20 @@ const Footer = () =>{
     return(
         <>
         <div className="footer-container">
-            <div className="footer-content">
+            <div className="">
                 <div>
                     <img src="images/psycheLogo.svg" />
                     <p>Psyche Finance, Inc. is a financial technology company and is <br/> not a bank. </p>
                 </div>
-                <div>
-                    <h3>Company</h3>
-                    <div>
-                        <p>8502 Preston Rd. Inglewood, Maine 98380</p>
-                        <p>+234 903 742 4764</p>
-                    </div>
-                </div>  
             </div>
-            <p className='center'> &copy; 2022 Psyche. All rights reserved</p>
+            <div className='footer-content'>
+               <p className='copyright'> &copy; 2022 Psyche. All rights reserved</p>
+               <div>
+                   <a href='#'><img src='images/linkedin.svg' alt='linkedin' /></a>
+                   <a href='#'><img src='images/twitter.svg' alt='twitter' /></a>
+                   <a href='#'><img src='images/facebook.svg' alt='facebook' /></a>
+               </div>
+            </div>
         </div>
         </>
     )

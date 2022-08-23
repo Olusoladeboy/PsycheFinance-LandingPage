@@ -1,7 +1,13 @@
+.footer-container {
+  padding: 2em 5em;
+}
 .footer-container .footer-content {
+  margin-top: 4em;
   display: flex;
   justify-content: space-between;
-  padding: 2em 5em;
+}
+.footer-container .footer-content img {
+  padding-right: 0.8em;
 }
 .footer-container div p {
   font-size: 12px;
@@ -12,8 +18,11 @@
 }
 
 @media (max-width: 700px) {
-  .footer-container .footer-content {
+  .footer-container {
     padding: 2em 2em;
+  }
+  .footer-container .footer-content img {
+    padding-right: 0.5em;
   }
   .footer-container div p {
     font-size: 10px;

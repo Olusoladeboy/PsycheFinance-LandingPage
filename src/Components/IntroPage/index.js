@@ -23,9 +23,9 @@ const IntroPage = () =>{
                     </h1>
                     <p>Psyche gives you a borderless access to receiving payments. Let you receive payment in any currency of your choice.</p>
                     <ul>
-                        <li><span><AiIcons.AiFillThunderbolt color='#6E1DD1'/></span><span>Banking</span></li>
-                        <li><span><AiIcons.AiFillThunderbolt color='#6E1DD1'/></span><span>Multi-currency Wallet</span></li>
-                        <li><span><AiIcons.AiFillThunderbolt color='#6E1DD1'/></span><span>Payment</span></li>
+                        <li><span className='icon'><AiIcons.AiFillThunderbolt color='#6E1DD1'/></span><span>Banking</span></li>
+                        <li><span className='icon'><AiIcons.AiFillThunderbolt color='#6E1DD1'/></span><span>Multi-currency Wallet</span></li>
+                        <li><span className='icon'><AiIcons.AiFillThunderbolt color='#6E1DD1'/></span><span>Payment</span></li>
                     </ul>
                     <form className='email-form'>
                         <input
@@ -38,9 +38,9 @@ const IntroPage = () =>{
                         <Button Background={"#0F5CA8"} Color={"#ffffff"}/>
 
                     </form>
-                    <div className='one ol'><img src='images/Bitcoin_perspective.svg'/></div>
-                    <div className='two ol'><img src='images/Coin_perspective.svg'/></div>
-                    <div className='three ol'><img src='images/Money_bag_perspective.svg'/></div>
+                    <div className='one ol'><img src='images/Bitcoin_perspective.svg' alt=''/></div>
+                    <div className='two ol'><img src='images/Coin_perspective.svg' alt=''/></div>
+                    <div className='three ol'><img src='images/Money_bag_perspective.svg' alt=''/></div>
                 </div>
             </div>
             <div className='mockup'><MockUp /></div>

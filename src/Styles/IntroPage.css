@@ -50,7 +50,7 @@
   right: 0;
 }
 .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content h1 .txt1 {
-  background: -webkit-linear-gradient(left, #E8F0FB, #0F5CA8, #0F5CA8);
+  background: -webkit-linear-gradient(left, #89b1e9, #0F5CA8, #0F5CA8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -66,6 +66,10 @@
   align-items: center;
   font-size: 12px;
   margin-bottom: 2em;
+}
+.intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content ul .icon {
+  margin-top: 0.5em;
+  margin-right: 0.2em;
 }
 .intro-main-container .IntroPage-Container .Intro-Content-Container .Intro-Content ul li {
   display: flex;

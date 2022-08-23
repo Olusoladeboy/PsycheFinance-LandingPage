@@ -61,7 +61,7 @@
 
             h1{
                 .txt1{
-                    background: -webkit-linear-gradient(left,$card-blue, $primary-blue, $primary-blue);
+                    background: -webkit-linear-gradient(left,#89b1e9, $primary-blue, $primary-blue);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
@@ -79,6 +79,11 @@
                 align-items: center;
                 font-size: 12px;
                 margin-bottom: 2em;
+
+                .icon{
+                    margin-top: 0.5em;
+                    margin-right: 0.2em;
+                }
 
                 li{
                     display: flex;
