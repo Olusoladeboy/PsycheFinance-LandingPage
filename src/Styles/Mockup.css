@@ -10,7 +10,7 @@
   position: relative;
 }
 .mockup .mockup-container .studio {
-  position: absolute;
+  position: relative;
   display: flex;
   top: 1em;
   left: 1em;
