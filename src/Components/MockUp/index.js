@@ -4,7 +4,7 @@ const MockUp = () =>{
         <>
             <div className="mockup">
                 <div className='mockup-container'>
-                    <img src="images/Studio-display.svg" className="studio-display" alt=''/>
+                    <img src="images/Studio-display.svg" className="studio-display" alt='' />
                     <img src="images/Screen.svg" className="studio" alt=''/>
                 </div>
             </div>
