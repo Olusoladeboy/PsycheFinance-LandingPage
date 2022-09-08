@@ -8,7 +8,7 @@ const Header = () =>{
            <div className="Logo">
               <img src="images/psycheLogo.svg" alt="psyche logo" />
            </div>
-           <div className="welcome-btn">
+           <div className="welcome-btn clas">
               <Button Background={"#0F5CA8"} Color={"#ffffff"} />
            </div>
         </div>
