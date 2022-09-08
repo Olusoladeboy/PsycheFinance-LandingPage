@@ -16,7 +16,7 @@
   box-shadow: 35px 11px 73px -26px rgba(57, 179, 196, 0.29);
   -webkit-box-shadow: 35px 11px 73px -26px rgba(57, 179, 196, 0.29);
   -moz-box-shadow: 35px 11px 73px -26px rgba(57, 179, 196, 0.29);
-  position: relative;
+  /* position: relative; */
   display: flex;
   top: 1em;
   left: 1em;

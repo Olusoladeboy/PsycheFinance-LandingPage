@@ -8,6 +8,14 @@
     margin-bottom: 4em;
   }
 
+  @media screen and (max-width: 1000px) {
+    .about-bg-container .about-container .about-cards {
+      display: flex;
+      justify-content: space-between;
+      margin: .1em;
+    }
+  }
+
   .about-bg-container .about-container .about-summary {
     width: 40%;
     text-align: left;
@@ -167,7 +175,7 @@
     left: 170px;
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 750px) and (max-width: 1000px) {
     .about-bg-container {
       padding: 0 2em;
     }
@@ -248,7 +256,6 @@
     }
   }
 
-  /*# sourceMappingURL=About.css.map */
 
   .coming-soon {
     display: flex;
@@ -263,3 +270,5 @@
     font-weight: 500;
     line-height: 18px;
   }
+
+  /*# sourceMappingURL=About.css.map */
