@@ -27,17 +27,19 @@ const IntroPage = () => {
                             <li><span className='icon'><AiIcons.AiFillThunderbolt color='#6E1DD1' /></span><span>Multi-currency Wallet</span></li>
                             <li><span className='icon'><AiIcons.AiFillThunderbolt color='#6E1DD1' /></span><span>Payment</span></li>
                         </ul>
-                        <form className='email-form'>
-                            {/* <input
+                        {/* <form className='email-form'>
+                            <input
                                 type="email"
                                 placeholder="Enter email address"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 htmlFor="email"
-                                className='email' /> */}
-                            <Button Background={"#0F5CA8"} Color={"#ffffff"} />
+                                className='email' />
 
-                        </form>
+                        </form> */}
+                        <div className='middle-section-btn'>
+                            <Button Background={"#0F5CA8"} Color={"#ffffff"} />
+                        </div>
                         <div className='one ol'><img src='images/Bitcoin_perspective.svg' alt='' /></div>
                         <div className='two ol'><img src='images/Coin_perspective.svg' alt='' /></div>
                         <div className='three ol'><img src='images/Money_bag_perspective.svg' alt='' /></div>
