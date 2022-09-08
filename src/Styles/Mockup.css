@@ -3,15 +3,19 @@
   justify-content: center;
   align-items: center;
 }
+
 .mockup .mockup-container {
   position: relative;
 }
+
 .mockup .mockup-container .studio-display {
   position: relative;
 }
 
 .mockup .mockup-container .studio {
-  box-shadow: 0px 0px 30px #C8E6FF;
+  box-shadow: 35px 11px 73px -26px rgba(57, 179, 196, 0.29);
+  -webkit-box-shadow: 35px 11px 73px -26px rgba(57, 179, 196, 0.29);
+  -moz-box-shadow: 35px 11px 73px -26px rgba(57, 179, 196, 0.29);
   position: relative;
   display: flex;
   top: 1em;
@@ -22,11 +26,16 @@
   .mockup .mockup-container {
     width: 90vw;
   }
-  .mockup .mockup-container .studio-display, .mockup .mockup-container .studio {
+
+  .mockup .mockup-container .studio-display,
+  .mockup .mockup-container .studio {
     width: 90vw;
   }
+
   .mockup .mockup-container .studio {
     top: 0.12em;
     left: 0;
   }
-}/*# sourceMappingURL=Mockup.css.map */
+}
+
+/*# sourceMappingURL=Mockup.css.map */
