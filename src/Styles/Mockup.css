@@ -2,23 +2,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .mockup .mockup-container .studio-display {
   position: relative;
-  top: 1em;
-  left: 1em;
+  top: 0;
+  left: 0;
+}
+
+.mockup .mockup-container .studio-display {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .mockup .mockup-container {
   box-shadow: 35px 11px 73px -26px rgba(57, 179, 196, 0.29);
   -webkit-box-shadow: 35px 11px 73px -26px rgba(57, 179, 196, 0.29);
   -moz-box-shadow: 35px 11px 73px -26px rgba(57, 179, 196, 0.29);
-  /* position: relative; */
   position: relative;
   display: flex;
-  top: 1em;
-  left: 1em;
 }
 
 @media (max-width: 700px) {
