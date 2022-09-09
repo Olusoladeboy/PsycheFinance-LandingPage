@@ -13,8 +13,8 @@
 
 .mockup .mockup-container .studio {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 1em;
+  left: 1em;
 }
 
 .mockup .mockup-container {
