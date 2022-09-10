@@ -12,7 +12,11 @@
     .about-bg-container .about-container .about-cards {
       display: flex;
       justify-content: space-between;
-      margin: .1em;
+      line-height: 2em;
+      margin: .9em;
+    }
+    .about-bg-container .about-container .about-cards .about-cards-item{
+      margin-bottom: 3em;
     }
   }
 

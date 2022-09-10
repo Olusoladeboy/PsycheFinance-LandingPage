@@ -14,25 +14,31 @@ const About = () => {
                     </div>
 
                     <div className="about-cards">
-                        <AboutCards
-                            img={"images/perspective_matte.svg"}
-                            header={"3% yearly interest on your Checking Account"}
-                            about={"Make your money work for you without any lock ups or fees"}
-                            stroke={"01"}
-                        />
-                        <AboutCards
-                            img={"images/Wallet_perspective_matte.svg"}
-                            header={"Recieve Payment in any Currency"}
-                            about={"Set up a direct deposit and get paid in Naira transfer, Dollar, Euro and Crypto."}
-                            stroke={"02"}
-                        />
-                        <AboutCards
-                            img={"images/Money_perspective_matte.svg"}
-                            header={"Cash to Crypto in Seconds"}
-                            button={<button className="coming-soon">Coming Soon</button>}
-                            about={"Store, buy and sell crypto directly starting from as low as $1."}
-                            stroke={"03"}
-                        />
+                        <div className="about-cards-item">
+                            <AboutCards
+                                img={"images/perspective_matte.svg"}
+                                header={"3% yearly interest on your Checking Account"}
+                                about={"Make your money work for you without any lock ups or fees"}
+                                stroke={"01"}
+                            />
+                        </div>
+                        <div className="about-cards-item">
+                            <AboutCards
+                                img={"images/Wallet_perspective_matte.svg"}
+                                header={"Recieve Payment in any Currency"}
+                                about={"Set up a direct deposit and get paid in Naira transfer, Dollar, Euro and Crypto."}
+                                stroke={"02"}
+                            />
+                        </div>
+                        <div className="about-cards-item">
+                            <AboutCards
+                                img={"images/Money_perspective_matte.svg"}
+                                header={"Cash to Crypto in Seconds"}
+                                button={<button className="coming-soon">Coming Soon</button>}
+                                about={"Store, buy and sell crypto directly starting from as low as $1."}
+                                stroke={"03"}
+                            />
+                        </div>
                     </div>
                 </div>
 
